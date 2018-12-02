@@ -1,0 +1,27 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+body {
+	background-color: linear-gradient(to right, #F0F8FF, #ADFF2F);
+}
+
+
+.main-window {
+	border: 2px solid #FF00FF;
+}
+
+.main-window table {
+	margin: 10px;
+	color: #696969;
+}
+
+.main-window table th {
+	margin: 0 5px;
+	color: #808080;
+	border-bottom: 2px solid black;
+	
+}
