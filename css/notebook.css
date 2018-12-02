@@ -6,22 +6,35 @@ html, body {
 }
 
 body {
-	background-color: linear-gradient(to right, #F0F8FF, #ADFF2F);
+	display: flex;
+	flex	
+	background: linear-gradient(to right, #F0F8FF, #ADFF2F);
 }
 
 
 .main-window {
-	border: 2px solid #FF00FF;
+	width: 70%;	
 }
 
 .main-window table {
 	margin: 10px;
 	color: #696969;
+	border: 2px solid #FF00FF;
+	border-collapse: collapse;
 }
 
 .main-window table th {
 	margin: 0 15px;
 	color: #808080;
 	border-bottom: 2px solid black;
+	font-size: 1.2em
 	
+}
+
+tr:nth-child(odd) td {
+	background: #F0FFFF;
+}
+
+tr:nth-child(even) td {
+	background: #DCDCDC;
 }
