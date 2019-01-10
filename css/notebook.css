@@ -7,13 +7,15 @@ html, body {
 
 body {
 	display: flex;
-	flex	
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
 	background: linear-gradient(to right, #F0F8FF, #ADFF2F);
 }
 
 
 .main-window {
-	width: 70%;	
+	width: 80%;	
 }
 
 .main-window table {

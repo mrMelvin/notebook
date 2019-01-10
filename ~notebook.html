@@ -9,6 +9,10 @@
 <body>
 	<div class="main-window">
 	
+	<?php
+		include 'connection.php';
+	 ?>	
+	
 	<table>
 		<tr>
 			<th>Название</th>
@@ -55,14 +59,13 @@
 	</table>	
 
 	<div>
-		<button form="add_button">Добавить!</button>
+		<form action="adding.html" id="adding">
+			<button form"adding" formtarget="_blank">Добавить!</button>
+		</form>		
+		
 	</div>	
 	
 	</div>	
-
-	
-	<form action="add_film.php" id="add_button" target="_blank"></form>	
-	
 	
 </body>
 </html>
